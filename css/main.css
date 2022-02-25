@@ -1,0 +1,334 @@
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/open-sans-v27-latin-regular.woff2') format('woff2'),
+         url('../fonts/open-sans-v27-latin-regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/open-sans-v27-latin-700.woff2') format('woff2'), 
+         url('../fonts/open-sans-v27-latin-700.woff') format('woff'); 
+  }
+  *{
+      box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+      font-family: "open-sans", sans-serif;
+      line-height: 24px;
+      margin-top: 120px;
+  }
+  .header{
+      width: 100%;
+      position: fixed;
+      top: 0;
+      margin: 0 auto;
+      margin-left: 0;
+      margin-right: 0;
+      background-color: #fff;
+      box-shadow: 0px 2px 5px grey;
+  }
+.header__container{
+    margin: 0 auto;
+    
+}
+  .container{
+      width: 1345px;
+      padding:0 20px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .site-logo{
+    margin-left: 85px;
+  }
+  .nav-list{
+      display: inline-block;
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 590px;
+      justify-content: space-between;
+  }
+  .site-logo-img{
+      display:block;
+  }
+  .header-top{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      
+     
+  }
+  .nav-link{
+      text-decoration: none;
+      display: inline-block;
+      font-family: Open Sans;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 15px;
+     line-height: 24px;
+     color: #000000;
+      
+  }
+  .nav-link:hover{
+transition: all 0.5s ease;
+box-shadow: 0px 2px black;
+  }
+  .navbar{
+      padding: 20px;
+      margin-right: 60px;
+  }
+  .header-btn{
+      width: 159px;
+      height: 40px;
+      background-color: #00BAFC;
+       border-radius: 5px;
+       border: none;
+       color: white;
+       font-family: Open Sans;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 15px;
+       line-height: 24px;
+       cursor: pointer;
+  }
+  .header-btn:hover{
+    background-color:white;
+    color: #00BAFC;
+    border: 1px solid #00BAFC;
+    transition: all 0.5s ease;
+  }
+  .site-hero{
+      width: 800px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 75px;
+  }
+  .main-heading{
+      text-align: center;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      color: #000000;
+  }
+  .main-text{
+      width: 800px;
+      text-align: center;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+      margin-bottom: 65px;
+  }
+ .container-service{
+    background-color: #F4F4F4;
+     margin-top: 5px;
+     padding: 50px 0px;
+ }
+ .service-list-item{
+     width: 800px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 80px;
+     background-color: #fff;
+     padding: 45px;
+     display: flex;
+     background: #FFFFFF;
+box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+border-radius: 5px;
+ }
+ .service-list{
+     list-style-type: none;
+     
+ }
+ .right-heading{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000
+ }
+ .list-right{
+     margin-left: 45px;
+ }
+ .right-text{
+     width: 500px;
+     margin: 30px 0px;
+     font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+ }
+ .circle{
+    background: #00BAFC;
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+     display: inline-block;
+ }
+ .select{
+     margin: 10px;
+     font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+ }
+ .right-list{
+list-style-type: none;
+ }
+ .right-list-item{
+  margin: 10px 0px 0px;
+ }
+ .right-link{
+     margin: 10px;
+     font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+text-decoration-line: underline;
+color: #00BAFC;
+ }
+ .container-end{
+     background-color: #00BAFC;;
+ }
+ .end-text{
+     width: 800px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 75px;
+ }
+ .text-end{
+     width: 715px;
+     margin: 25px ;
+     text-align: center;
+     font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+ }
+ .end-heading{
+     text-align: center;
+     font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+color: #FFFFFF;
+ }
+ .site-form{
+     width: 348px;
+     /* height: 304px; */
+     margin-right: auto;
+     margin-left: auto;
+     background: #FFFFFF;
+     border-radius: 5px;
+     padding: 30px;
+ }
+ .site-form-input{
+     width: 300px;
+     height: 56px;
+     background: #F3F3F3;
+      border-radius: 5px;
+     padding: 16px;
+     margin: 12px 0px;
+     border: none;
+ }
+ .header-btn-center{
+     margin-left: 65px;
+ }
+ footer{
+     background-color:black;
+     height: 450px;
+ }
+ .footer-list{
+     list-style-type: none;
+ }
+ .container-footer{
+     width: 1200px;
+     height: 450px;
+     padding-top: 50px;
+     display: flex;
+     justify-content: space-around;
+ }
+ .copyright-heading{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 15px 0px;
+ }
+ .copyright-text{
+     width: 320px;
+     font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #FFFFFF;
+ }
+ .footer-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+     color: #FFFFFF;
+     text-decoration: none;
+     margin-left: 15px;
+ }
+ .footer-list-item{
+     margin-top: 15px;
+     display: flex;
+ }
+ .containers{
+     width: 1360px;
+     height: 500px;
+     /* border: 1px solid red; */
+     margin-right: auto;
+     margin-left: auto;
+ }
+.main-top{
+    width: 1150px;
+    /* height: 500px; */
+    /* border: 1px solid green; */
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-right-heading{
+    width: 470px;
+    font-style: normal;
+font-weight: bold;
+font-size: 30px;
+color: #000000;
+}
+.main-right-text{
+    width: 470px;
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 25px;
+}
